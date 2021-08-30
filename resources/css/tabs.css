@@ -1,0 +1,16 @@
+[role="tab-container"] [role="tab"]{
+    border: 1px solid #D9D9D9;
+    border-radius: 3px 3px 0 0;
+    margin-bottom: 15px;
+    color: #252F3F;
+}
+[role="tab-container"] [role="tab"].active{
+    border-bottom: none;
+    color: #8DA2FB;
+}
+[role="tab-container"] [role="tabpanel"]{
+    display: none;
+}
+[role="tab-container"] [role="tabpanel"].active{
+    display: block;
+}

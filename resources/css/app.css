@@ -1,0 +1,70 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'animate.css/animate.css';
+@import 'flatpickr/dist/flatpickr.min.css';
+@import "toastr";
+@import "tabs.css";
+
+
+ol, ul{
+    list-style: initial;
+}
+
+ol{
+    list-style-type: decimal;
+}
+
+.trix-button-row{
+    overflow-x: scroll;
+}
+
+.drawer_bg {
+    animation-duration: 0.15s;
+}
+
+.drawer_bg .drawer {
+    animation-duration: 0.2s;
+}
+
+#options > div div:hover{
+    background-color: #333;
+}
+
+trix-editor {
+    /*height: 150px !important;*/
+    max-height: 300px !important;
+    overflow-y: auto !important;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+.schedule .title{
+    position: sticky;
+    top: 0;
+}
+
+.schedule .title,
+.schedule .month .item{
+    width: 1800px;
+}
+
+.schedule{
+    height: 500px;
+}
+
+.schedule .dayCell{
+    width: 24px;
+    text-align: center;
+}
+
+.schedule .month-name {
+    text-transform: capitalize;
+}
+
+.select42Height{
+    height: 42px;
+    min-height: 42px;
+}

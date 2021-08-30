@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@tailwindcss/forms": "^0.2.1",
+        "@tailwindcss/typography": "^0.3.0",
+        "alpinejs": "^2.7.3",
+        "autoprefixer": "^10.0.2",
+        "axios": "^0.21",
+        "browser-sync": "^2.26.14",
+        "browser-sync-webpack-plugin": "^2.2.2",
+        "laravel-echo": "^1.10.0",
+        "laravel-mix": "^6.0.19",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "postcss-import": "^14.0.2",
+        "pusher-js": "^7.0.3",
+        "tailwindcss": "^2.0.1"
+    },
+    "dependencies": {
+        "@dotcode.moscow/trix-columns": "^1.0.0",
+        "animate.css": "^4.1.1",
+        "daisyui": "^0.11.3",
+        "flatpickr": "^4.6.9",
+        "howler": "^2.2.1",
+        "jquery": "^3.5.1",
+        "jquery-mask-plugin": "^1.14.16",
+        "moment": "^2.29.1",
+        "rateyo": "^3.0.0-alpha.2",
+        "select2": "^4.1.0-rc.0",
+        "toastr": "^2.1.4"
+    }
+}
